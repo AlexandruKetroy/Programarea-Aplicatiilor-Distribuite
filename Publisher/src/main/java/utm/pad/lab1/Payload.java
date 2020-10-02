@@ -6,6 +6,16 @@ public class Payload {
 
     private String message;
 
+    private String type;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public String getTopic() {
         return topic;
     }
